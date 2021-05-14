@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "Gotham";
+  src: local("/fonts/GothamBold/gothambold1.woff") format("woff"), local("/fonts/GothamBook/GothamBook.woff") format("woff");
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.main {
+  min-height: 800px;
+  background: url(/img/main-bg.jpg) center center/cover no-repeat;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 70px;
+}
+
+.main__title {
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Gotham", sans-serif, sans-serif;
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  line-height: 55px;
+  margin-bottom: 40px;
+}
+
+.main__subtitle {
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Gotham", sans-serif, sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 5.5px;
+}
+
+.projects {
+  min-height: 1633px;
+  background-color: #fff;
+}
+
+.news {
+  min-height: 1035px;
+  background: url(/img/news-bg.jpg) center center/cover no-repeat;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.gallery {
+  min-height: 1000px;
+  background-color: #fff;
+}
+
+.map {
+  min-height: 700px;
+  background-color: aqua;
+}
+
+.main__footer {
+  min-height: 524px;
+  background: url(/img/footer-bg.jpg) center center/cover no-repeat;
+}
+/*# sourceMappingURL=style.css.map */

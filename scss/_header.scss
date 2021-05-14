@@ -1,0 +1,11 @@
+.main__header {
+    position: relative;
+    z-index: 1;
+    display: flex;
+}
+
+.header__nav-list {
+    width: 596px;
+    display: flex;
+    justify-content: space-between;
+}
