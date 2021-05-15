@@ -1,42 +1,36 @@
-$(document).ready(function () {
-    $('.header-carousel').slick({
-        dots: true,
-        arrows: false,
-        infinite: true,
-        autoplay: true,
-        autoplaySpeed: 4000,
+$(document).ready(function(){
+    $('.main__slider').slick({
         slidesToShow: 1,
-        slidesToScroll: 1
-    });
-})
-    
-    
-    $('#js-news-carousel').slick({
+        slidesToScroll: 1,
         dots: true,
-        infinite: false,
-        draggable: false,
+        adaptiveHeight: true,
+        arrows: false,
+        autoplay: true,
+        draggable: true,
+        verticalSwiping: true,
+        swipeToSlide: true,
+        infinite: true,
+        fade: true,
+        autoplaySpeed: 3000,
+        cssEase: 'linear',
+        focusOnSelect: true
+    });
+
+    $('.news__slider').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
-        responsive: [
-            {
-                breakpoint: 1200,
-                settings: {
-                    slidesToShow: 2,
-                    draggable: true,
-                }
-            }, {
-                breakpoint: 992,
-                settings: {
-                    slidesToShow: 2,
-                    arrows: false,
-                }
-            }, {
-                breakpoint: 576,
-                settings: {
-                    slidesToShow: 1,
-                    arrows: false,
-                }
-            }
-        ]
+        dots: true,
+        adaptiveHeight: true,
+        arrows: true,
+        autoplay: true,
+        draggable: true,
+        verticalSwiping: true,
+        swipeToSlide: true,
+        infinite: true,
+        autoplaySpeed: 4000,
     });
+
+
+
+  });
     

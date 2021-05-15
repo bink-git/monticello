@@ -8,12 +8,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300;1,400&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="/img/favico.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
 
-    <section class="main">
+    <section class="main" id="main">
         <header class="header">
             <div class="container">
                 <div class="main__header">
@@ -47,10 +48,48 @@
             </div>
         </header>
     
-        <div class="main__screen">
-            <div class="container">
-                <h1 class="main__title">Simple & mordern</h1>
-                <h2 class="main__subtitle">We make the world's beautiful every day</h2>
+
+
+        <div class="main__text">
+            <div class="main__title">Simple & mordern</div>
+            <div class="main__subtitle">We make the world's beautiful every day</div>
+        </div>
+
+        <div class="main__slider">
+            <div>
+                <img src="/img/main-bg-1.jpg" alt="" class="main__img">
+                <div class="main__text">
+                    <div class="main__title">Simple & modern</div>
+                    <div class="main__subtitle">We make the world's beautiful every day</div>
+                </div>
+            </div>
+            <div>
+                <img src="/img/main-bg-2.jpg" alt="" class="main__img">
+                <div class="main__text">
+                    <div class="main__title">Simple</div>
+                    <div class="main__subtitle">We make the world's beautiful every day</div>
+                </div>
+            </div>
+            <div>
+                <img src="/img/main-bg-3.jpg" alt="" class="main__img">
+                <div class="main__text">
+                    <div class="main__title">modern</div>
+                    <div class="main__subtitle">We make the world's beautiful every day</div>
+                </div>
+            </div>
+            <div>
+                <img src="/img/main-bg-4.jpg" alt="" class="main__img">
+                <div class="main__text">
+                    <div class="main__title">beautiful</div>
+                    <div class="main__subtitle">We make the world's beautiful every day</div>
+                </div>
+            </div>
+            <div>
+                <img src="/img/main-bg-5.jpg" alt="" class="main__img">
+                <div class="main__text">
+                    <div class="main__title">awesome</div>
+                    <div class="main__subtitle">We make the world's beautiful every day</div>
+                </div>
             </div>
         </div>
 
@@ -98,13 +137,14 @@
             <div class="news__title">latest news</div>
             
             <div class="news__slider">
+
                 <div class="slider-card">
                     <div class="slider-img">
                         <img src="/img/slider-1.jpg" alt="">
                     </div>
                     <div class="slider-info">
                         <div class="slider-title">See The Unmatched Beauty Of The Great.</div>
-                        <div class="slider-descr">Free directories: directories are perfect for customers that are... searching for</div>
+                        <div class="slider-descr">Free directories: directories are perfect for customers that are...</div>
                         <div class="slider-author">
                             <div class="slider-author-img">
                                 <img src="/img/auth-1.png" alt="">
@@ -155,30 +195,129 @@
                     </div>
                 </div>
 
+                <div class="slider-card">
+                    <div class="slider-img">
+                        <img src="/img/slider-3.jpg" alt="">
+                    </div>
+                    <div class="slider-info">
+                        <div class="slider-title">Hypnotize Yourself Into The Ghost.</div>
+                        <div class="slider-descr">There are many things that are important to catalog design...</div>
+                        <div class="slider-author">
+                            <div class="slider-author-img">
+                                <img src="/img/auth-3.png" alt="">
+                            </div>
+                            <div class="slider-author-info">
+                                <div class="slider-author-name">Alice Ward</div>
+                                <div class="slider-author-date">30 Dec 2017</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider-card">
+                    <div class="slider-img">
+                        <img src="/img/slider-3.jpg" alt="">
+                    </div>
+                    <div class="slider-info">
+                        <div class="slider-title">Hypnotize Yourself Into The Ghost.</div>
+                        <div class="slider-descr">There are many things that are important to catalog design...</div>
+                        <div class="slider-author">
+                            <div class="slider-author-img">
+                                <img src="/img/auth-3.png" alt="">
+                            </div>
+                            <div class="slider-author-info">
+                                <div class="slider-author-name">Alice Ward</div>
+                                <div class="slider-author-date">30 Dec 2017</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
         
     </section>
 
 
-    <section class="gallery"></section>
+    <section class="gallery">
+        <div class="container">
+            <div class="gallery__title">gallery</div>
+            <div class="gal__box">
+                <img src="/img/gal-1.jpg" style="margin-right: 10px;" alt="">
+                <div class="gal-row-1">
+                    <img src="/img/gal-2.jpg" alt="">
+                    <img src="/img/gal-3.jpg" alt="">
+                </div>
+                <div class="gal-row-2" >
+                    <img src="/img/gal-4.jpg" alt="">
+                    <img src="/img/gal-5.jpg" alt="">
+                </div>
+            </div>
+            <button class="gallery-btn">see more</button>
+        </div>
+    </section>
 
 
     <div id="map"></div>
 
 
-    <section class="contact" id="contact"></section>
+    <section class="contact" id="contact">
+        <div class="form__box">
+            <div class="form__title">get in touch</div>
+            <div class="form__wrapper">
+                <ul class="contact__list">
+                    <li class="contact__item"><i class="fas fa-map-marker-alt"></i> 91 Nolan Extensions Suite 670</li>
+                    <li class="contact__item"><i class="fas fa-phone-alt"></i> +001 356-868-2454</li>
+                    <li class="contact__item"><i class="fas fa-inbox"></i> gahuy93@gmail.com</li>
+                    <li class="contact__item"><i class="far fa-clock"></i> From 07:05AM to 19:30PM</li>
+                </ul>
+    
+                <form method="POST" action="#" class="form__info">
+                    <input type="text" name="name" id="" required placeholder="Name" class="form__input">
+                    <input type="email" name="email" id="" required placeholder="Email" class="form__input">
+                    <button type="submit" class="form__btn">submit</button>
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+
+        <div class="container">
+            <div class="footer__box">
+                <a href="#">
+                    <img src="/img/main-logo.svg" alt="logo monticello" class="header__logo">
+                </a>
+        
+                <div class="header__social">
+                    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="footer__copyright">
+                Copyrights © 2017 Monticello | Made with <i class="fas fa-heart"></i> by Ga Huy
+            </div>
+
+            <a class="footer-btn" href="#main"><i class="fas fa-chevron-up"></i></a>
+            
+        </div>
+        
+    </footer>
 
 
-    <footer class="main__footer"></footer>
+    
 
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
     <script src="https://kit.fontawesome.com/8487242f69.js" crossorigin="anonymous"></script>
     <script src="/js/carousel.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBG2qx5zC7c0l1nMbjUjKp-_2EP-8JncvU&callback=initMap&libraries=&v=weekly" async></script>
     <script src="/js/main.js"></script>
     <script src="/js/map.js"></script>
+    <script src="/js/scroll.js"></script>
 
 </body>
 </html>
