@@ -375,11 +375,17 @@ a {
 }
 
 .project__adress {
+  display: block;
   font-family: "Open Sans", sans-serif;
   font-style: italic;
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
+  color: #2c4058;
+}
+
+.project__adress:hover {
+  color: #55b7ff;
 }
 
 .news {

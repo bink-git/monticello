@@ -159,17 +159,17 @@ const styles = [
   },
 ];
 
+
+let coordinates = {
+  lat: 49.02415,
+  lng: 24.37207,
+};
+
 function initMap() {
 
   let marker, info, content;
   
   const element = document.getElementById('map');
-
-  const coordinates = {
-    lat: 49.02415,
-    lng: 24.37207,
-  };
-
   const map = new google.maps.Map(element, {
     zoom: 14,
     center: coordinates,
@@ -194,3 +194,27 @@ function initMap() {
 		info.open(map, marker);                   
 	});	
 }
+
+
+
+
+
+	$(document).ready(function () {
+		
+    $('.cord-ny').click(function () {
+			coordinates = {
+				lat: 40.74059839526125,
+				lng: -74.04011286357431,                 //new-york
+			};
+			initMap();
+		})
+
+		$('.cord-hk').click(function () {
+			coordinates = {
+				lat: 22.3171493189299,                // Hong Kong
+				lng: 114.16800654312759,
+			};
+			initMap();
+		})
+	
+	});
