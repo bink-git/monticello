@@ -1,6 +1,13 @@
 @font-face {
   font-family: "Gotham";
   src: local("/fonts/GothamBold/gothambold1.woff") format("woff"), local("/fonts/GothamBook/GothamBook.woff") format("woff");
+  font-family: "Open Sans";
+  src: local("/fonts/Open_Sans/") format("ttf"), local("/fonts/GothamBook/GothamBook.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: local("/fonts/Open_Sans/OpenSans-Regular") format("ttf"), local("/fonts/Open_Sans/OpenSans-Italic") format("ttf");
 }
 
 html, body {
@@ -390,7 +397,7 @@ a {
 
 .news {
   min-height: 1035px;
-  background: url(/img/news-bg.jpg) center center/cover no-repeat;
+  background: url(../img/news-bg.webp) center center/cover no-repeat;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 170px 50px;
@@ -595,14 +602,14 @@ a {
 
 .slick-prev {
   left: -6%;
-  background: url(/img/chevron-left-solid.svg) no-repeat;
+  background: url(img/chevron-left-solid.svg) no-repeat;
   background-size: 10px;
   background-position: 12px;
 }
 
 .slick-next {
   right: -10%;
-  background: url(/img/chevron-right-solid.svg) no-repeat;
+  background: url(img/chevron-right-solid.svg) no-repeat;
   background-size: 10px;
   background-position: 15px;
 }
@@ -689,7 +696,7 @@ a {
 
 .footer {
   min-height: 524px;
-  background: url(/img/footer-bg.jpg) center center/cover no-repeat;
+  background: url(../img/footer-bg.webp) center center/cover no-repeat;
   position: relative;
 }
 
@@ -767,7 +774,7 @@ a {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   display: block;
-  background: url(/img/contact-bg.jpg) no-repeat;
+  background: url(../img/contact-bg.webp) no-repeat;
   position: absolute;
   z-index: 3;
   padding: 78px 15px;
