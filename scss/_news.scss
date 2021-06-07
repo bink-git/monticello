@@ -1,6 +1,6 @@
 .news {
     min-height: 1035px;
-    background: url(/img/news-bg.jpg) center center/cover no-repeat; 
+    background: url(img/news-bg.jpg) center center/cover no-repeat; 
     box-sizing: border-box;
     padding: 170px 50px;
     position: relative;
@@ -196,14 +196,14 @@
 
 .slick-prev {
     left: -6%;
-    background: url(/img/chevron-left-solid.svg) no-repeat;
+    background: url(img/chevron-left-solid.svg) no-repeat;
     background-size: 10px;
     background-position: 12px;
     
 }
 .slick-next {
     right: -10%;
-    background: url(/img/chevron-right-solid.svg) no-repeat;
+    background: url(img/chevron-right-solid.svg) no-repeat;
     background-size: 10px;
     background-position: 15px;
 }
