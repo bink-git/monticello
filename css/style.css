@@ -1,8 +1,6 @@
 @font-face {
   font-family: "Gotham";
   src: local("/fonts/GothamBold/gothambold1.woff") format("woff"), local("/fonts/GothamBook/GothamBook.woff") format("woff");
-  font-family: "Open Sans";
-  src: local("/fonts/Open_Sans/") format("ttf"), local("/fonts/GothamBook/GothamBook.woff") format("woff");
 }
 
 @font-face {
@@ -27,6 +25,7 @@ a {
 
 .container {
   max-width: 1170px;
+  border: 1px solid red;
   margin: 0 auto;
 }
 
@@ -327,7 +326,7 @@ a {
   background-color: #7e5aff;
   position: absolute;
   top: -70px;
-  left: 260px;
+  left: 219px;
   z-index: -1;
 }
 

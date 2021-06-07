@@ -2,10 +2,6 @@
     font-family: "Gotham";
     src: local("/fonts/GothamBold/gothambold1.woff") format("woff"),
         local("/fonts/GothamBook/GothamBook.woff") format("woff");
-
-    font-family: "Open Sans";
-    src: local("/fonts/Open_Sans/") format("ttf"),
-        local("/fonts/GothamBook/GothamBook.woff") format("woff");
    }
 
 @font-face {
@@ -38,5 +34,6 @@ a {
 
 .container {
     max-width: 1170px;
+    border: 1px solid red;
     margin: 0 auto;
 }
