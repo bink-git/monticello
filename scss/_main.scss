@@ -1,6 +1,6 @@
 .main {
     position: relative;
-    height: 800px;
+    height: 100vh;
     box-sizing: border-box;
     
 }
@@ -74,6 +74,7 @@
 
 .main__img {
     width: 100%;
+    height: 100vh;
 }
 
 .slick-dots {
